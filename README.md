@@ -1,14 +1,14 @@
 <div><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFyL8h0FSXOL16GP1m4-A-BEyiLcYgXcRSxxRB6UVCaGYnxLYt-FjjV7rNa9gupae9050CngT9H873oNUZDcO0b3OXbP8wik1PZc06FQxS5b3yeLXY64jRklLD521koxJbrMPIh3B93tXSs3uGB4ZvJX9uvaTO2Q3wLKyREd76kfeDir_MJ1a4Gutv-n8/s1024/embaralha_chat_gpt_944f2085-9124-4c3a-8bc9-2c9da6443601.webp" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1024" data-original-width="1024" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFyL8h0FSXOL16GP1m4-A-BEyiLcYgXcRSxxRB6UVCaGYnxLYt-FjjV7rNa9gupae9050CngT9H873oNUZDcO0b3OXbP8wik1PZc06FQxS5b3yeLXY64jRklLD521koxJbrMPIh3B93tXSs3uGB4ZvJX9uvaTO2Q3wLKyREd76kfeDir_MJ1a4Gutv-n8/s320/embaralha_chat_gpt_944f2085-9124-4c3a-8bc9-2c9da6443601.webp" width="320" /></a></div><br /><div><br /></div>
 <pre class="markdown">_Créditos da imagem: Gerada com auxílio do ChatGPT_
 
-
 ---
 
 # **Desembaralhando a função Embaralha**
 
-No universo das customizações para o ERP da TOTVS, frequentemente surge a necessidade de compreender o
+No universo das customizações para o ERP da TOTVS, frequentemente surge a necessidade de compreender  o
 funcionamento de uma função "proprietária" para poder replicá-la em outros sistemas, como SQL, C#, ou C.
-Uma das funções mais conhecidas nesse contexto é a Embaralha, que tem despertado o interesse de muitos 
+
+Uma das funções mais conhecidas nesse contexto é a Embaralha, que tem despertado o interesse de   muitos 
 desenvolvedores que desejam utilizar sua lógica em aplicações fora do ambiente TOTVS.
 
 Neste post, apresentarei o resultado de um algoritmo que simula o processo de "embaralhar e desembaralhar"
@@ -16,14 +16,16 @@ semelhante ao da função Embaralha (testado com strings de 1 a 36+ caracteres).
 
 Vale ressaltar que o algoritmo aqui apresentado tem finalidade exclusivamente didática e não é recomendado
 para uso no ambiente TOTVS Microsiga Protheus. No Protheus, sempre utilize a função nativa Embaralha. 
+
 Entretanto, se você deseja implementar a lógica para uso externo ao Protheus, este material pode servir como
 ponto de partida.
 
-Para implementar e testar esse algoritmo, utilizei a linguagem Harbour, compilada para WebAssembly [harbour_wasm](https://fivetechsoft.github.io/harbour_wasm/)
+Para implementar e testar esse algoritmo, utilizei a linguagem Harbour, compilada para 
+WebAssembly [harbour_wasm](https://fivetechsoft.github.io/harbour_wasm/)
+
 <br /></pre><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOPg_bMeU2sqdoYpWAVG7aZ8omMwcarOTNT62tzCr0A1gejE0Qbd61JD5_w4ntKuk3X3Vi-ahrOm46UBCzLLdrNOtleQ3AGvU1B5oyjMhy8FzN85Mrc0GlBt2f_9oe-XZmRDpULg-9M4DTo6Edk46bXZ_Fhsth3u1yvitCCh3t2ynEvJz6cB6kYxaytpA/s1359/embaralha.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="682" data-original-width="1359" height="322" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOPg_bMeU2sqdoYpWAVG7aZ8omMwcarOTNT62tzCr0A1gejE0Qbd61JD5_w4ntKuk3X3Vi-ahrOm46UBCzLLdrNOtleQ3AGvU1B5oyjMhy8FzN85Mrc0GlBt2f_9oe-XZmRDpULg-9M4DTo6Edk46bXZ_Fhsth3u1yvitCCh3t2ynEvJz6cB6kYxaytpA/w640-h322/embaralha.png" width="640" /></a></div><br /><pre class="markdown"><br /></pre><pre class="markdown">_Créditos da imagem: BlackTDN_
 
 ## **Retorno da Embaralha no Protheus**
-
 
 ```markdown
 
