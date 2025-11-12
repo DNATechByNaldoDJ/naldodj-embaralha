@@ -1,8 +1,13 @@
 /*
 
-Shuffle. Based on the Harbour/TLPP versions, it was crafted through a collaborative effort by Naldo DJ and Grok after numerous iterations and adjustments.
+Embaralha/Shuffle. 
+
+Based on the Harbour/TLPP versions, it was crafted through a collaborative effort by Naldo DJ and Grok after numerous iterations and adjustments.
 
 Released to Public Domain.
+
+https://www.typescriptlang.org/play/
+
 */
 
 class Embaralha {
