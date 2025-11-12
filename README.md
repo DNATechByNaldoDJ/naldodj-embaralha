@@ -20,8 +20,8 @@ para uso no ambiente TOTVS Microsiga Protheus. No Protheus, sempre utilize a fun
 Entretanto, se você deseja implementar a lógica para uso externo ao Protheus, este material pode servir como
 ponto de partida.
 
-Para implementar e testar esse algoritmo, utilizei a linguagem Harbour, compilada para 
-WebAssembly [harbour_wasm](https://fivetechsoft.github.io/harbour_wasm/)
+Para implementar e testar esse algoritmo, utilizei a linguagem Harbour, compilada para WebAssembly 
+[harbour_wasm](https://fivetechsoft.github.io/harbour_wasm/)
 
 <br /></pre><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOPg_bMeU2sqdoYpWAVG7aZ8omMwcarOTNT62tzCr0A1gejE0Qbd61JD5_w4ntKuk3X3Vi-ahrOm46UBCzLLdrNOtleQ3AGvU1B5oyjMhy8FzN85Mrc0GlBt2f_9oe-XZmRDpULg-9M4DTo6Edk46bXZ_Fhsth3u1yvitCCh3t2ynEvJz6cB6kYxaytpA/s1359/embaralha.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="682" data-original-width="1359" height="322" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOPg_bMeU2sqdoYpWAVG7aZ8omMwcarOTNT62tzCr0A1gejE0Qbd61JD5_w4ntKuk3X3Vi-ahrOm46UBCzLLdrNOtleQ3AGvU1B5oyjMhy8FzN85Mrc0GlBt2f_9oe-XZmRDpULg-9M4DTo6Edk46bXZ_Fhsth3u1yvitCCh3t2ynEvJz6cB6kYxaytpA/w640-h322/embaralha.png" width="640" /></a></div><br /><pre class="markdown"><br /></pre><pre class="markdown">_Créditos da imagem: BlackTDN_
 
